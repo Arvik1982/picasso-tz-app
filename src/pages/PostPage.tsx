@@ -31,7 +31,6 @@ const PostPage = () => {
     if (newArr !== undefined) {
       setSelectedPostData(newArr);
     }
-    console.log(selectedPostData);
   }, [postsData]);
 
   return (

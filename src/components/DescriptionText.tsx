@@ -8,10 +8,6 @@ type ChildProps = {
 };
 
 const DescriptionBody: FC<ChildProps> = ({ text, id }) => {
-  console.log(id);
-  console.log(text);
-  let idBody: number = id;
-  console.log(idBody);
   let textBody: string = text;
   const [showButton, setShowButton] = useState(false);
   const [showDescription, setShowDescription] = useState<Boolean>(false);
